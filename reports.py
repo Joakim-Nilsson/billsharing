@@ -32,12 +32,12 @@ class PdfReport:
         pdf.cell(w=100, h=40, txt="Period:", border=0)
         pdf.cell(w=150, h=40, txt=bill.period, border=0, ln=1)
 
-        # Insert name and due amount of the first flatemate
+        # Insert name and due amount of the first flatmate
         pdf.set_font(family="Times", size=12)
         pdf.cell(w=100, h=25, txt=flatmate1.name, border=0)
         pdf.cell(w=150, h=25, txt=flatmate1_pay, border=0, ln=1)
 
-        # Insert name and due amount of the first flatemate
+        # Insert name and due amount of the first flatmate
         pdf.cell(w=100, h=25, txt=flatmate2.name, border=0)
         pdf.cell(w=150, h=25, txt=flatmate2_pay, border=0, ln=1)
 
