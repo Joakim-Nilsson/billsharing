@@ -42,6 +42,6 @@ class PdfReport:
         pdf.cell(w=150, h=25, txt=flatmate2_pay, border=0, ln=1)
 
         # Change the directory to files, generate and open PDF
-        os.chdir("files")
+        os.chdir("../files")
         pdf.output(self.filename)
         webbrowser.open(self.filename)

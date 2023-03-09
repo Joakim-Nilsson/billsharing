@@ -1,4 +1,4 @@
-from flat import Bill, Flatmate
+from flatmates_bill.flat import Bill, Flatmate
 from reports import PdfReport
 
 amount = float(input("Hey user, enter the bill amount"))
